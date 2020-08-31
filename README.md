@@ -1,8 +1,8 @@
 # pixonic-test
 
-### ***Pygrep***  - simple grep utility based on python
+#### ***Pygrep***  - simple grep utility based on python
 
-### Usage:
+#### Usage:
 ```
 python pygrep.py <search_pattern> <file_name> [optional_arguments]
 ```
@@ -13,4 +13,14 @@ Optional arguments:
   -f, --files         prints out files names with the specified patterns
   -i, --ignore_case   ignore case
   -v, --invert_match  selected lines are those not matching any of the specified patterns
+```
+
+### ***nchecker.py***  - simple script to get nginx status
+#### Require:
+```
+requests
+```
+#### Usage:
+```
+python nchecker.py
 ```
