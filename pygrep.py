@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 
-man_dict = {
+MAN_DICT = {
     '-n': 'prints out each line number in the file with the specified patterns',
     '-f': 'prints out files names with the specified patterns',
     '-i': 'ignore case',
@@ -15,13 +15,13 @@ def get_parser():
     parser.add_argument('pattern', type=str)
     parser.add_argument('file_name', nargs='*')
     parser.add_argument('-n', '--numbers', action='store_true',
-                        help=man_dict.get('-n'))
+                        help=MAN_DICT.get('-n'))
     parser.add_argument('-f', '--files', action='store_true',
-                        help=man_dict.get('-f'))
+                        help=MAN_DICT.get('-f'))
     parser.add_argument('-i', '--ignore_case', action='store_true',
-                        help=man_dict.get('-i'))
+                        help=MAN_DICT.get('-i'))
     parser.add_argument('-v', '--invert_match', action='store_true',
-                        help=man_dict.get('-v'))
+                        help=MAN_DICT.get('-v'))
 
     return parser
 
