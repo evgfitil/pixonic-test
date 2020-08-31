@@ -1,6 +1,6 @@
 # pixonic-test
 
-## ***Pygrep*** ## - simple grep utility based on python
+### ***Pygrep***  - simple grep utility based on python
 
 ### Usage:
 ```
