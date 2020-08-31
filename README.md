@@ -2,7 +2,7 @@
 
 ***Pygrep*** - simple grep utility based on python
 
-# Usage:
+### Usage:
 ```
 python pygrep.py <search_pattern> <file_name> [optional_arguments]
 ```
